@@ -1,0 +1,215 @@
+{
+ "tag": "plan_p1",
+ "method": "plan",
+ "part": {
+  "part": {
+   "c": [
+    4.648184070529528,
+    -2.8513814405891225
+   ],
+   "a": [
+    -0.9994878711774767,
+    0.031999927642353806
+   ],
+   "r": 36.066875075367754,
+   "L": 62.98435364619277
+  },
+  "r_from_image": 36.066875075367754,
+  "L_from_image": 62.98435364619277,
+  "size_from": "image",
+  "axis_from": "highlight stripes",
+  "axis_coherence": 0.9907862126830204,
+  "rect_deg": 85.51539611816406,
+  "rect_wh": [
+   183.7103271484375,
+   194.61798095703125
+  ],
+  "lights_alpha_deg": [
+   10.054317116620798
+  ],
+  "highlight_width_deg": [
+   8.0
+  ],
+  "highlight_px": 180,
+  "centroid_px": [
+   329.46299473103784,
+   247.03489155740718
+  ],
+  "axis_img": [
+   -0.9972148443770926,
+   0.07458253249904431
+  ]
+ },
+ "n_views": 8,
+ "wall_s": 117.47699975967407,
+ "path_mm": 287.33530610612814,
+ "measured": {
+  "seen_upper": 0.5902026431718062,
+  "glarefree_upper": 0.5902026431718062,
+  "glare_only_upper": 0.0
+ },
+ "views": [
+  {
+   "view": "plan0",
+   "alpha_plan": null,
+   "alpha_meas": 5.218604862766381,
+   "img": "plan0.jpg",
+   "aim_open_mm": 3.392862083923765,
+   "aim_mm": 5.634446428391603,
+   "verify": "registration servo (tilted)",
+   "move_s": 14.833858489990234,
+   "C_plan": [
+    21.80658130538254,
+    24.0747658321926,
+    214.0
+   ],
+   "C_meas": [
+    23.674650125816495,
+    11.675641007188355,
+    201.70440430851278
+   ]
+  },
+  {
+   "view": "plan1",
+   "alpha_plan": null,
+   "alpha_meas": 11.447642367152561,
+   "img": "plan1.jpg",
+   "aim_open_mm": 1.3873025173587725,
+   "aim_mm": 1.3873025173587725,
+   "verify": "registration servo (tilted)",
+   "move_s": 7.114994287490845,
+   "C_plan": [
+    -27.753696030815718,
+    38.83823304073765,
+    214.0
+   ],
+   "C_meas": [
+    -27.009160811280037,
+    33.463496480206786,
+    210.30441250199488
+   ]
+  },
+  {
+   "view": "plan2",
+   "alpha_plan": null,
+   "alpha_meas": 8.6306524259565,
+   "img": "plan2.jpg",
+   "aim_open_mm": 1.8783224131536695,
+   "aim_mm": 1.374062121387332,
+   "verify": "registration servo (tilted)",
+   "move_s": 7.9318883419036865,
+   "C_plan": [
+    -26.813715492448754,
+    28.38427299097094,
+    214.0
+   ],
+   "C_meas": [
+    -26.00875859409059,
+    24.656022577601995,
+    210.73919321747007
+   ]
+  },
+  {
+   "view": "plan3",
+   "alpha_plan": null,
+   "alpha_meas": -9.57165753908352,
+   "img": "plan3.jpg",
+   "aim_open_mm": 4.200951588181397,
+   "aim_mm": 4.831559540108182,
+   "verify": "registration servo (tilted)",
+   "move_s": 15.454558372497559,
+   "C_plan": [
+    -23.025021858716073,
+    -13.751548200237643,
+    214.0
+   ],
+   "C_meas": [
+    -23.30701079187099,
+    -28.640704072253826,
+    194.22916445834912
+   ]
+  },
+  {
+   "view": "plan4",
+   "alpha_plan": null,
+   "alpha_meas": -7.162169716692413,
+   "img": "plan4.jpg",
+   "aim_open_mm": 2.3251133949538563,
+   "aim_mm": NaN,
+   "verify": "planned pose (registration rejected)",
+   "move_s": 17.40340566635132,
+   "C_plan": [
+    -22.070589429891978,
+    -24.366234434553995,
+    214.0
+   ],
+   "C_meas": [
+    -22.070589429891978,
+    -24.366234434553995,
+    214.0
+   ]
+  },
+  {
+   "view": "plan5",
+   "alpha_plan": null,
+   "alpha_meas": -11.272828174343877,
+   "img": "plan5.jpg",
+   "aim_open_mm": 2.4527722938014724,
+   "aim_mm": NaN,
+   "verify": "planned pose (registration rejected)",
+   "move_s": 17.782673120498657,
+   "C_plan": [
+    27.927663232436945,
+    -39.081680930002854,
+    214.0
+   ],
+   "C_meas": [
+    27.927663232436945,
+    -39.081680930002854,
+    214.0
+   ]
+  },
+  {
+   "view": "plan6",
+   "alpha_plan": null,
+   "alpha_meas": -7.965853465799829,
+   "img": "plan6.jpg",
+   "aim_open_mm": 1.999627326235569,
+   "aim_mm": NaN,
+   "verify": "planned pose (registration rejected)",
+   "move_s": 17.057023525238037,
+   "C_plan": [
+    26.89969895845655,
+    -28.47529275928926,
+    214.0
+   ],
+   "C_meas": [
+    26.89969895845655,
+    -28.47529275928926,
+    214.0
+   ]
+  },
+  {
+   "view": "plan7",
+   "alpha_plan": null,
+   "alpha_meas": 0.8697329634869515,
+   "img": "plan7.jpg",
+   "aim_open_mm": 2.5974316118350442,
+   "aim_mm": NaN,
+   "verify": "planned pose (registration rejected)",
+   "move_s": 17.902958393096924,
+   "C_plan": [
+    0.0,
+    0.0,
+    214.0
+   ],
+   "C_meas": [
+    0.0,
+    0.0,
+    214.0
+   ]
+  }
+ ],
+ "rho_min": 1.8865536626934902,
+ "psi_max": 60.0
+}

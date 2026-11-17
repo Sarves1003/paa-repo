@@ -1,0 +1,27 @@
+{
+ "tag": "good_01",
+ "condition": "ok",
+ "rust_facing": "none",
+ "truth": "ACCEPT",
+ "truth_y": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "truth_defective": false,
+ "learn_good": true,
+ "passes": 1,
+ "wall_s": 74.22237992286682,
+ "n_views": 3,
+ "glarefree_upper": [
+  0.6221126805068411
+ ],
+ "verdict": "ACCEPT",
+ "reasons": [],
+ "items": null,
+ "classifier_reject": null,
+ "surface_reject": false,
+ "anomaly_max_over_tau": 0.6408935016146129,
+ "correct": true
+}

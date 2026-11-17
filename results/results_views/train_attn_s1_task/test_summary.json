@@ -1,0 +1,144 @@
+{
+  "policy_pct_of_oracle": 86.40418046776618,
+  "policy_mean": 0.19580982160567384,
+  "comparisons": [
+    {
+      "method": "greedy_pred",
+      "mean": 0.20413669102845072,
+      "pct_of_oracle": 90.07854328796238,
+      "policy_minus_method": -0.008326869422776873,
+      "policy_win_pct": 26.666666666666668,
+      "wilcoxon_p": 0.1353759765625
+    },
+    {
+      "method": "setcover",
+      "mean": 0.2015765388964407,
+      "pct_of_oracle": 88.94883567153543,
+      "policy_minus_method": -0.005766717290766891,
+      "policy_win_pct": 40.0,
+      "wilcoxon_p": 0.33026123046875
+    },
+    {
+      "method": "nn_time",
+      "mean": 0.20698176168410204,
+      "pct_of_oracle": 91.33397570886255,
+      "policy_minus_method": -0.01117194007842821,
+      "policy_win_pct": 26.666666666666668,
+      "wilcoxon_p": 0.072998046875
+    },
+    {
+      "method": "raster_high",
+      "mean": 0.2054689659842029,
+      "pct_of_oracle": 90.66643068178941,
+      "policy_minus_method": -0.009659144378529024,
+      "policy_win_pct": 46.666666666666664,
+      "wilcoxon_p": 0.25238037109375
+    },
+    {
+      "method": "raster_low",
+      "mean": 0.19880146837879745,
+      "pct_of_oracle": 87.72429191856632,
+      "policy_minus_method": -0.002991646773123587,
+      "policy_win_pct": 46.666666666666664,
+      "wilcoxon_p": 0.76153564453125
+    },
+    {
+      "method": "random",
+      "mean": 0.19432700693295002,
+      "pct_of_oracle": 85.74986504307674,
+      "policy_minus_method": 0.0014828146727238552,
+      "policy_win_pct": 33.33333333333333,
+      "wilcoxon_p": 0.890380859375
+    },
+    {
+      "method": "oracle",
+      "mean": 0.2266207729135541,
+      "pct_of_oracle": 100.0,
+      "policy_minus_method": -0.03081095130788024,
+      "policy_win_pct": 0.0,
+      "wilcoxon_p": 0.0009702397523702138
+    }
+  ],
+  "data": "data/view_library_task.npz",
+  "arch": "attn",
+  "seed": 1,
+  "no_pose": false,
+  "no_time": false,
+  "no_tilt": false,
+  "policy": "deploy/view_policy_attn_s1_task.npz",
+  "parity": 3.814697265625e-06,
+  "test_placements": [
+    "horizontal_000",
+    "horizontal_002",
+    "horizontal_003",
+    "horizontal_010",
+    "horizontal_014"
+  ],
+  "n_test_cases": 15,
+  "test_pose_counts": {
+    "horizontal": 5,
+    "vertical": 0
+  },
+  "by_pose_horizontal": {
+    "policy_pct_of_oracle": 86.40418046776618,
+    "policy_mean": 0.19580982160567384,
+    "comparisons": [
+      {
+        "method": "greedy_pred",
+        "mean": 0.20413669102845072,
+        "pct_of_oracle": 90.07854328796238,
+        "policy_minus_method": -0.008326869422776873,
+        "policy_win_pct": 26.666666666666668,
+        "wilcoxon_p": 0.1353759765625
+      },
+      {
+        "method": "setcover",
+        "mean": 0.2015765388964407,
+        "pct_of_oracle": 88.94883567153543,
+        "policy_minus_method": -0.005766717290766891,
+        "policy_win_pct": 40.0,
+        "wilcoxon_p": 0.33026123046875
+      },
+      {
+        "method": "nn_time",
+        "mean": 0.20698176168410204,
+        "pct_of_oracle": 91.33397570886255,
+        "policy_minus_method": -0.01117194007842821,
+        "policy_win_pct": 26.666666666666668,
+        "wilcoxon_p": 0.072998046875
+      },
+      {
+        "method": "raster_high",
+        "mean": 0.2054689659842029,
+        "pct_of_oracle": 90.66643068178941,
+        "policy_minus_method": -0.009659144378529024,
+        "policy_win_pct": 46.666666666666664,
+        "wilcoxon_p": 0.25238037109375
+      },
+      {
+        "method": "raster_low",
+        "mean": 0.19880146837879745,
+        "pct_of_oracle": 87.72429191856632,
+        "policy_minus_method": -0.002991646773123587,
+        "policy_win_pct": 46.666666666666664,
+        "wilcoxon_p": 0.76153564453125
+      },
+      {
+        "method": "random",
+        "mean": 0.19432700693295002,
+        "pct_of_oracle": 85.74986504307674,
+        "policy_minus_method": 0.0014828146727238552,
+        "policy_win_pct": 33.33333333333333,
+        "wilcoxon_p": 0.890380859375
+      },
+      {
+        "method": "oracle",
+        "mean": 0.2266207729135541,
+        "pct_of_oracle": 100.0,
+        "policy_minus_method": -0.03081095130788024,
+        "policy_win_pct": 0.0,
+        "wilcoxon_p": 0.0009702397523702138
+      }
+    ]
+  }
+}

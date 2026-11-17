@@ -1,0 +1,16 @@
+names
+poses
+split
+meta
+Q
+F
+qpred
+qs
+w
+T
+avail
+fp_part
+fp_edge
+fp_glare
+pose
+servo_mean

@@ -1,0 +1,42 @@
+[
+ {
+  "run": "pitch_p1",
+  "method": "pitch",
+  "views": 3,
+  "path_mm": 129.18566545685906,
+  "time_s": 45.71072220802307,
+  "seen_upper_pct": 47.48560191038067,
+  "glarefree_upper_pct": 47.48560191038067,
+  "aim_median_mm": NaN
+ },
+ {
+  "run": "plan_p1",
+  "method": "plan",
+  "views": 8,
+  "path_mm": 287.33530610612814,
+  "time_s": 117.47699975967407,
+  "seen_upper_pct": 59.02026431718062,
+  "glarefree_upper_pct": 59.02026431718062,
+  "aim_median_mm": 3.109431028733477
+ },
+ {
+  "run": "ring_p1",
+  "method": "ring",
+  "views": 5,
+  "path_mm": 325.67183268894996,
+  "time_s": 75.6197407245636,
+  "seen_upper_pct": 63.33206146588505,
+  "glarefree_upper_pct": 63.33206146588505,
+  "aim_median_mm": 5.654053923897932
+ },
+ {
+  "run": "soga_p1",
+  "method": "soga",
+  "views": 2,
+  "path_mm": 168.9666188886802,
+  "time_s": 42.721402406692505,
+  "seen_upper_pct": 60.96361848574238,
+  "glarefree_upper_pct": 60.96361848574238,
+  "aim_median_mm": 0.3020638753585108
+ }
+]

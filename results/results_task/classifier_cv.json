@@ -1,0 +1,87 @@
+{
+  "backbone": "vit",
+  "n_crops": 1664,
+  "n_placements": 19,
+  "folds": 5,
+  "epochs": 30,
+  "temperature": [
+    2.6899802624263045,
+    2.5647190200856844,
+    4.999999999999999,
+    4.999999999999999
+  ],
+  "items": [
+    "ring_hex",
+    "ring_open",
+    "oring",
+    "rust"
+  ],
+  "ring_hex": {
+    "auc_all": 0.8100327227086633,
+    "acc_all": 0.7337740384615384,
+    "auc_survey": 0.7285714285714285,
+    "acc_survey": 0.6842105263157895,
+    "n_survey": 19,
+    "auc_straight": 0.8242628571428572,
+    "acc_straight": 0.74,
+    "n_straight": 950,
+    "auc_tilted": 0.7928499258335662,
+    "acc_tilted": 0.7266187050359713,
+    "n_tilted": 695,
+    "auc_horizontal": 0.8100327227086633
+  },
+  "ring_open": {
+    "auc_all": 0.8362589108136494,
+    "acc_all": 0.7572115384615384,
+    "auc_survey": 0.8,
+    "acc_survey": 0.6842105263157895,
+    "n_survey": 19,
+    "auc_straight": 0.86768,
+    "acc_straight": 0.7694736842105263,
+    "n_straight": 950,
+    "auc_tilted": 0.7963947233606558,
+    "acc_tilted": 0.7424460431654676,
+    "n_tilted": 695,
+    "auc_horizontal": 0.8362589108136494
+  },
+  "oring": {
+    "auc_all": 0.7655066287878788,
+    "acc_all": 0.7524038461538461,
+    "auc_survey": 0.7647058823529411,
+    "acc_survey": 0.7894736842105263,
+    "n_survey": 19,
+    "auc_straight": 0.7732117647058824,
+    "acc_straight": 0.7526315789473684,
+    "n_straight": 950,
+    "auc_tilted": 0.755407581494538,
+    "acc_tilted": 0.7510791366906475,
+    "n_tilted": 695,
+    "auc_horizontal": 0.7655066287878788
+  },
+  "rust": {
+    "auc_all": 0.7938816109080152,
+    "acc_all": 0.7415865384615384,
+    "auc_survey": 0.75,
+    "acc_survey": 0.7368421052631579,
+    "n_survey": 19,
+    "auc_straight": 0.8068916666666667,
+    "acc_straight": 0.7336842105263158,
+    "n_straight": 950,
+    "auc_tilted": 0.7772960372960372,
+    "acc_tilted": 0.7525179856115108,
+    "n_tilted": 695,
+    "auc_horizontal": 0.7938816109080152
+  },
+  "part_verdict_survey_only": {
+    "accuracy": 0.2631578947368421,
+    "defect_recall": 0.8666666666666667,
+    "n_defects": 15
+  },
+  "part_verdict_all_images": {
+    "accuracy": 0.3157894736842105,
+    "defect_recall": 0.6666666666666666,
+    "n_defects": 15
+  },
+  "numpy_ms_per_crop_colab_cpu": 67.52929091453552,
+  "numpy_parity_max_abs": 9.59634780883789e-06
+}

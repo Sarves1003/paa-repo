@@ -1,0 +1,15 @@
+X
+placement
+k
+y
+m
+frac
+items
+learnable
+Yp
+Mp
+conditions
+rust_facing
+poses
+names
+K

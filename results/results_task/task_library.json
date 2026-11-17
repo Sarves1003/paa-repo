@@ -1,0 +1,38 @@
+{
+  "placements": 19,
+  "views": 100,
+  "items": [
+    "ring_hex",
+    "ring_open",
+    "oring",
+    "rust"
+  ],
+  "mean_evidence_survey": 0.577999639245772,
+  "mean_best_evidence_all_views": 0.8025893980224672,
+  "prior_vs_measured_evidence_r_test": {
+    "ring_hex": -0.039162394759691306,
+    "ring_open": 0.12191625562069891,
+    "oring": 0.4892477757086477,
+    "rust": 0.045327362980728994
+  },
+  "evidence_ring_hex": {
+    "survey": 0.5987076709793303,
+    "straight": 0.644262538403662,
+    "tilted": 0.6236060880497156
+  },
+  "evidence_ring_open": {
+    "survey": 0.6393201477091282,
+    "straight": 0.665386203719849,
+    "tilted": 0.6443108352293138
+  },
+  "evidence_oring": {
+    "survey": 0.5240753669938046,
+    "straight": 0.5370010420659285,
+    "tilted": 0.5404832399014168
+  },
+  "evidence_rust": {
+    "survey": 0.5498953713008252,
+    "straight": 0.56509495666098,
+    "tilted": 0.5724983855652211
+  }
+}

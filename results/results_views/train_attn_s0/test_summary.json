@@ -1,0 +1,144 @@
+{
+  "policy_pct_of_oracle": 97.92077275328937,
+  "policy_mean": 0.21327146186848558,
+  "comparisons": [
+    {
+      "method": "greedy_pred",
+      "mean": 0.2011401426996185,
+      "pct_of_oracle": 92.35083790534996,
+      "policy_minus_method": 0.012131319168867057,
+      "policy_win_pct": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    {
+      "method": "setcover",
+      "mean": 0.170205672503423,
+      "pct_of_oracle": 78.1476847981003,
+      "policy_minus_method": 0.04306578936506254,
+      "policy_win_pct": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    {
+      "method": "nn_time",
+      "mean": 0.20213302379766124,
+      "pct_of_oracle": 92.80670613788655,
+      "policy_minus_method": 0.01113843807082433,
+      "policy_win_pct": 93.33333333333333,
+      "wilcoxon_p": 0.0001220703125
+    },
+    {
+      "method": "raster_high",
+      "mean": 0.16576032833974572,
+      "pct_of_oracle": 76.10666378268648,
+      "policy_minus_method": 0.04751113352873984,
+      "policy_win_pct": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    {
+      "method": "raster_low",
+      "mean": 0.18521075538668452,
+      "pct_of_oracle": 85.03707027088417,
+      "policy_minus_method": 0.028060706481801048,
+      "policy_win_pct": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    {
+      "method": "random",
+      "mean": 0.18547845917520156,
+      "pct_of_oracle": 85.15998292694657,
+      "policy_minus_method": 0.027793002693283983,
+      "policy_win_pct": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    {
+      "method": "oracle",
+      "mean": 0.21780001921126724,
+      "pct_of_oracle": 100.0,
+      "policy_minus_method": -0.004528557342781673,
+      "policy_win_pct": 0.0,
+      "wilcoxon_p": 6.103515625e-05
+    }
+  ],
+  "data": "data/view_library.npz",
+  "arch": "attn",
+  "seed": 0,
+  "no_pose": false,
+  "no_time": false,
+  "no_tilt": false,
+  "policy": "deploy/view_policy_attn_s0.npz",
+  "parity": 4.76837158203125e-06,
+  "test_placements": [
+    "horizontal_000",
+    "horizontal_002",
+    "horizontal_003",
+    "horizontal_010",
+    "horizontal_014"
+  ],
+  "n_test_cases": 15,
+  "test_pose_counts": {
+    "horizontal": 5,
+    "vertical": 0
+  },
+  "by_pose_horizontal": {
+    "policy_pct_of_oracle": 97.92077275328937,
+    "policy_mean": 0.21327146186848558,
+    "comparisons": [
+      {
+        "method": "greedy_pred",
+        "mean": 0.2011401426996185,
+        "pct_of_oracle": 92.35083790534996,
+        "policy_minus_method": 0.012131319168867057,
+        "policy_win_pct": 100.0,
+        "wilcoxon_p": 6.103515625e-05
+      },
+      {
+        "method": "setcover",
+        "mean": 0.170205672503423,
+        "pct_of_oracle": 78.1476847981003,
+        "policy_minus_method": 0.04306578936506254,
+        "policy_win_pct": 100.0,
+        "wilcoxon_p": 6.103515625e-05
+      },
+      {
+        "method": "nn_time",
+        "mean": 0.20213302379766124,
+        "pct_of_oracle": 92.80670613788655,
+        "policy_minus_method": 0.01113843807082433,
+        "policy_win_pct": 93.33333333333333,
+        "wilcoxon_p": 0.0001220703125
+      },
+      {
+        "method": "raster_high",
+        "mean": 0.16576032833974572,
+        "pct_of_oracle": 76.10666378268648,
+        "policy_minus_method": 0.04751113352873984,
+        "policy_win_pct": 100.0,
+        "wilcoxon_p": 6.103515625e-05
+      },
+      {
+        "method": "raster_low",
+        "mean": 0.18521075538668452,
+        "pct_of_oracle": 85.03707027088417,
+        "policy_minus_method": 0.028060706481801048,
+        "policy_win_pct": 100.0,
+        "wilcoxon_p": 6.103515625e-05
+      },
+      {
+        "method": "random",
+        "mean": 0.18547845917520156,
+        "pct_of_oracle": 85.15998292694657,
+        "policy_minus_method": 0.027793002693283983,
+        "policy_win_pct": 100.0,
+        "wilcoxon_p": 6.103515625e-05
+      },
+      {
+        "method": "oracle",
+        "mean": 0.21780001921126724,
+        "pct_of_oracle": 100.0,
+        "policy_minus_method": -0.004528557342781673,
+        "policy_win_pct": 0.0,
+        "wilcoxon_p": 6.103515625e-05
+      }
+    ]
+  }
+}

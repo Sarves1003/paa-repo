@@ -1,0 +1,87 @@
+{
+  "backbone": "cnn",
+  "n_crops": 1664,
+  "n_placements": 19,
+  "folds": 5,
+  "epochs": 30,
+  "temperature": [
+    4.999999999999999,
+    4.333532937471314,
+    4.999999999999999,
+    4.999999999999999
+  ],
+  "items": [
+    "ring_hex",
+    "ring_open",
+    "oring",
+    "rust"
+  ],
+  "ring_hex": {
+    "auc_all": 0.5758412276245405,
+    "acc_all": 0.6640625,
+    "auc_survey": 0.6428571428571429,
+    "acc_survey": 0.7368421052631579,
+    "n_survey": 19,
+    "auc_straight": 0.5822057142857143,
+    "acc_straight": 0.6821052631578948,
+    "n_straight": 950,
+    "auc_tilted": 0.5648472601414537,
+    "acc_tilted": 0.637410071942446,
+    "n_tilted": 695,
+    "auc_horizontal": 0.5758412276245405
+  },
+  "ring_open": {
+    "auc_all": 0.7037121872369587,
+    "acc_all": 0.7229567307692307,
+    "auc_survey": 0.6571428571428571,
+    "acc_survey": 0.5789473684210527,
+    "n_survey": 19,
+    "auc_straight": 0.7170857142857143,
+    "acc_straight": 0.7315789473684211,
+    "n_straight": 950,
+    "auc_tilted": 0.688599299863388,
+    "acc_tilted": 0.7151079136690648,
+    "n_tilted": 695,
+    "auc_horizontal": 0.7037121872369587
+  },
+  "oring": {
+    "auc_all": 0.19466718597262953,
+    "acc_all": 0.6850961538461539,
+    "auc_survey": 0.14705882352941177,
+    "acc_survey": 0.6842105263157895,
+    "n_survey": 19,
+    "auc_straight": 0.18803529411764705,
+    "acc_straight": 0.6842105263157895,
+    "n_straight": 950,
+    "auc_tilted": 0.19863341602472037,
+    "acc_tilted": 0.6863309352517986,
+    "n_tilted": 695,
+    "auc_horizontal": 0.19466718597262953
+  },
+  "rust": {
+    "auc_all": 0.1589114782216939,
+    "acc_all": 0.7061298076923077,
+    "auc_survey": 0.08333333333333333,
+    "acc_survey": 0.6842105263157895,
+    "n_survey": 19,
+    "auc_straight": 0.125625,
+    "acc_straight": 0.6989473684210527,
+    "n_straight": 950,
+    "auc_tilted": 0.197000777000777,
+    "acc_tilted": 0.7165467625899281,
+    "n_tilted": 695,
+    "auc_horizontal": 0.1589114782216939
+  },
+  "part_verdict_survey_only": {
+    "accuracy": 0.21052631578947367,
+    "defect_recall": 0.2,
+    "n_defects": 15
+  },
+  "part_verdict_all_images": {
+    "accuracy": 0.2631578947368421,
+    "defect_recall": 0.26666666666666666,
+    "n_defects": 15
+  },
+  "numpy_ms_per_crop_colab_cpu": 3.542289137840271,
+  "numpy_parity_max_abs": 0.0010551810264587402
+}

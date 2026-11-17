@@ -1,0 +1,635 @@
+{
+  "test_placements": [
+    "horizontal_000",
+    "horizontal_002",
+    "horizontal_003",
+    "horizontal_010",
+    "horizontal_014"
+  ],
+  "conf": 0.9,
+  "items": [
+    "ring_hex",
+    "ring_open",
+    "oring",
+    "rust"
+  ],
+  "survey_only_part_accuracy": 0.2,
+  "results": {
+    "policy_task": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 152.7144042796121,
+        "mean_views": 14.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 268.68468499125936,
+        "mean_views": 25.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 382.707273249485,
+        "mean_views": 34.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 767.1495237579902,
+        "mean_views": 71.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "policy_task_mlp": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 151.63197194502672,
+        "mean_views": 21.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 265.68582203615813,
+        "mean_views": 32.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 383.3018453791369,
+        "mean_views": 46.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 761.7102934803095,
+        "mean_views": 85.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "policy_quality": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 0.5,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 152.19354198011519,
+        "mean_views": 19.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 267.1347249968888,
+        "mean_views": 29.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 382.12608756061434,
+        "mean_views": 37.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 766.6220954276116,
+        "mean_views": 62.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "policy_task_notilt": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 0.5,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 150.78669914535007,
+        "mean_views": 25.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 265.74262617427127,
+        "mean_views": 40.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 381.1132578396402,
+        "mean_views": 53.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 760.0422120333249,
+        "mean_views": 86.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "policy_task_nopose": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 152.7144042796121,
+        "mean_views": 14.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 268.68468499125936,
+        "mean_views": 25.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 382.707273249485,
+        "mean_views": 34.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 767.1495237579902,
+        "mean_views": 71.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "policy_task_notime": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 0.5,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 151.41380448248668,
+        "mean_views": 13.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 266.8353348539246,
+        "mean_views": 22.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 383.1185718134867,
+        "mean_views": 31.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 768.0249593929715,
+        "mean_views": 67.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "greedy_evidence": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 0.5,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 150.86180993649774,
+        "mean_views": 26.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 267.39230908546705,
+        "mean_views": 42.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 383.45569512914506,
+        "mean_views": 56.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 758.2829974802556,
+        "mean_views": 85.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "greedy_quality": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 0.5,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 151.5766564234023,
+        "mean_views": 17.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 266.1195242620794,
+        "mean_views": 31.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 382.313299015992,
+        "mean_views": 46.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 768.8692443535541,
+        "mean_views": 87.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "setcover": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 1.0,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 152.20688229221383,
+        "mean_views": 21.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 267.6382812449051,
+        "mean_views": 36.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 382.2470321730865,
+        "mean_views": 50.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 767.7462634786301,
+        "mean_views": 85.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "nn_time": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 148.34941957931022,
+        "mean_views": 30.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 264.572126044746,
+        "mean_views": 47.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 379.8119908269456,
+        "mean_views": 59.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 753.2621849284099,
+        "mean_views": 86.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "raster_high": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 151.68909114126478,
+        "mean_views": 23.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 266.8689979149641,
+        "mean_views": 38.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 382.02191006338353,
+        "mean_views": 51.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 756.820720008789,
+        "mean_views": 87.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "raster_low": {
+      "0.2": {
+        "part_accuracy": 0.0,
+        "defect_recall": 1.0,
+        "false_reject_rate": 1.0,
+        "mean_time_s": 153.10171011546535,
+        "mean_views": 22.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.2,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 267.18310387050377,
+        "mean_views": 36.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 380.6114211831932,
+        "mean_views": 51.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 759.9325917668353,
+        "mean_views": 87.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "random": {
+      "0.2": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 152.7808350692867,
+        "mean_views": 14.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.4,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 267.3759431833232,
+        "mean_views": 24.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 381.8870339164371,
+        "mean_views": 34.4,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 767.2172667942904,
+        "mean_views": 68.2,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    },
+    "oracle": {
+      "0.2": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 151.35581528127824,
+        "mean_views": 18.8,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.35": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 267.21440180843763,
+        "mean_views": 33.6,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "0.5": {
+        "part_accuracy": 0.4,
+        "defect_recall": 1.0,
+        "false_reject_rate": 0.3333333333333333,
+        "mean_time_s": 383.36050843215196,
+        "mean_views": 49.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3
+      },
+      "1.0": {
+        "part_accuracy": 0.2,
+        "defect_recall": 0.5,
+        "false_reject_rate": 0.6666666666666666,
+        "mean_time_s": 766.4862102499599,
+        "mean_views": 83.0,
+        "n_parts": 5,
+        "n_defects": 2,
+        "n_good_parts": 3,
+        "decided_pct": 0.0,
+        "median_time_to_confident_verdict_s": null
+      }
+    }
+  }
+}
